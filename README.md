@@ -30,27 +30,6 @@ A RESTful API built with FastAPI for managing tasks, integrated with OpenAI to p
 
 ---
 
-## Project Structure
-
-task_manager_api/
-├── .env # Environment variables (DB URL, Auth Token, Key File Path) - KEEP SECRET!
-├── .gitignore # Specifies intentionally untracked files that Git should ignore
-├── openai_api_key.txt # Contains ONLY your OpenAI API Key - KEEP SECRET!
-├── app/
-│ ├── init.py
-│ ├── main.py # FastAPI application entry point, startup logic
-│ ├── models.py # SQLAlchemy database models (tables)
-│ ├── schemas.py # Pydantic schemas for data validation & serialization
-│ ├── crud.py # Database interaction functions (CRUD operations)
-│ ├── database.py # Database connection setup and session management
-│ ├── routes.py # API endpoint definitions (routers)
-│ ├── dependencies.py # Reusable dependencies (e.g., authentication, DB session)
-│ └── ai_connector.py # Logic for connecting to and querying the OpenAI API
-└── requirements.txt # Python package dependencies
-
-
----
-
 ## Setup and Installation
 
 1.  **Clone the Repository:**
