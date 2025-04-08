@@ -1,0 +1,11 @@
+# .gitignore
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+openai_api_key.txt
+venv/
+*.db
+*.sqlite3
