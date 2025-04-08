@@ -184,7 +184,3 @@ These interfaces allow you to explore and test the API endpoints directly from y
 *   **Configuration:** Improve configuration management for different environments (dev, staging, prod).
 
 ---
-
-## License
-
-(Optional: Add your preferred license here, e.g., MIT License)
